@@ -1,0 +1,416 @@
+@media screen and (max-width:1199px){
+
+
+    .contact_left .overlay_contents h2 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .contact_left .overlay_contents {
+        padding-left: 34px;
+    }
+    
+    .portfolio_right .overlay_contents {
+        max-width: 230px;
+    }
+}
+
+
+@media screen and (min-width:1199px){
+    .portfolio_right .overlay_contents {
+        margin-top: 96px;
+    }
+
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 600px){
+    .portfolio_left .overlay_contents {
+        margin-left: calc(10% - 12px);
+    }
+}
+/* Laptopn screen  */
+@media only screen and (max-width: 1366px) and (min-width: 992px){
+
+    .client_review_right {
+        margin-top: 5px;
+    }
+
+    .contact_left .overlay_contents h2 {
+        font-size: 40px !important;
+        line-height: 58px !important;
+    }
+    .contact_right h5{
+        font-size: 25px !important;
+    }
+
+}
+@media screen and (max-width:1366px){
+
+
+    h1{
+        font-size: 24px !important;
+        line-height: 36px !important;
+    }
+    
+    h2{
+        font-size: 24px !important;
+        line-height: 36px !important;
+    }
+    p{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    a{
+        font-size: 14px !important;
+        line-height: 32px !important;
+    }
+    h3{
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+    #features h2 {
+        max-width: 500px;
+    }
+
+    #clinet_review .row {
+        min-height: 400px;
+    }
+
+    .reviewer h5 {
+        font-size: 16px;
+    }
+    .client_review_right {
+        margin-top: 5px;
+    }
+
+    .reviewer img {
+        height: 40px;
+        width: 40px;
+    }
+    .review_slider .slick-prev {
+        bottom: 23PX;
+    }
+    .review_slider .slick-next {
+        bottom: 23PX;
+    }
+    #faq .accordion-button {
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+
+    #footer .tiny_footer_left .useful_links li a {
+        padding-right: 25px;
+    }
+
+    .client_review_left h2, .client_review_left p {
+        margin: auto;
+    }
+
+
+}
+
+@media screen and (max-width:992px){
+
+
+    h1{
+        font-size: 24px !important;
+        line-height: 36px !important;
+    }
+    
+    h2{
+        font-size: 24px !important;
+        line-height: 36px !important;
+    }
+    p{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    a{
+        font-size: 14px !important;
+        line-height: 32px !important;
+    }
+    h3{
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+
+    #header .nav-item {
+        padding: 0px 0px;
+    }
+    #header .navbar{
+        padding-bottom: 13px;
+        padding-top: 13px;
+    }
+    .banners_content {
+        padding: 0px 10px;
+    }
+
+    .how_we_work_contents h2{
+        margin-top: 0px !important;
+      
+      }
+      #portfolio{
+          text-align: center;
+      }
+      #portfolio h2.portfolio_heading {
+          padding-bottom: 0px;
+          font-size: 20px !important;
+      }
+      #portfolio h2 a {
+        text-align: center !important;
+        display: inherit !important;
+        float: none !important;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+
+      
+    .portfolio_right{
+        margin-top: 32px;
+    }
+
+    .portfolio_left{
+        min-height: 400px;
+    }
+    .portfolio_left .overlay{
+        max-width: 100% !important;
+    }
+    .portfolio_left .overlay_contents h2 {
+        max-width: 100% !important;
+    }
+
+    .portfolio_left .overlay_contents p {
+        max-width: 100%;
+    }
+
+    .portfolio_left .overlay_contents{
+        top: 20%;
+        left: 15%;
+        transform: translate(-27px, 40px) !important;
+    }
+
+
+    #portfolio h1 a {
+        float: none;
+        display: inherit;
+        text-align: center;
+    }
+
+    #clinet_review {
+        padding: 80px 16px;
+    }
+    #clinet_review .row {
+        min-height: auto;
+    }
+    .client_review_left h2 {
+        margin: auto;
+        width: 100%;
+        font-size: 20px;
+    }
+    .client_review_left p {
+        max-width: 100%;
+    }
+
+    .client_review_right .review_contents p:first-child{
+       width: 100%;
+       text-align: center;
+       margin: auto;
+    }
+
+    .client_review_right {
+        margin-top: 40px;
+    }
+
+    .review_slider .slick-next, .review_slider .slick-prev {
+        bottom: 8px;
+}
+
+
+.contact_right {
+    margin-top: 40px !important;
+}
+
+    .contact_right .form-contents{
+        margin-top: 40px;
+        max-width: 100%;
+    }
+
+    .contact_right .form-contents p{
+        font-size: 14px;
+    line-height: 21px;
+    max-width: 340px;
+    width: 100%;
+    }
+
+    .contact_right h5{
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width:768px){
+    .gap{
+        height: 40px;
+    }
+
+    .banners_content h1 {
+        margin-top: 50px;
+    }
+
+    .banner_right_content {
+        margin-top: 58px;
+    }
+
+    .banners_left_content p {
+        margin-bottom: 40px;
+    }
+    .how_we_work_contents {
+        padding: 0px 0px;
+    }
+    .how_we_work_contents h1 {
+        margin-top: 0px;
+    }
+    .how_we_work_contents .card {
+        padding: 15px;
+
+    }
+
+
+    #goal_section svg{
+        margin-bottom: 40px;
+    }
+    .goal_section_right p, .goal_section_left p  {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .goal_section_left h2{
+        margin-top: 30px;
+    }
+    .goal_section_right h2{
+        margin-top: 40px;
+    }
+
+
+
+    #features .card p {
+        max-width: 100%;
+    }
+    #features .feature_cards img{
+        margin: auto;
+      }
+
+
+      .client_review_left h1{
+          max-width: 100%;
+          text-align: center;
+      }
+
+      
+      .client_review_left p{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    #faq h2.heading{
+        max-width:238px;
+        text-align: center;
+        margin: auto;
+    }
+    #faq .accordion-button {
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+    #faq .accordion-item span{
+        padding-right: 20px !important;
+        font-size: 18px !important;
+        line-height: 30px !important;
+    }
+
+    #faq .accordion-body {
+        padding-left: 38px;
+    }
+    
+    .contact_left {
+        min-height: 361px;
+
+    }
+    .contact_left .overlay_contents{
+        text-align: center;
+        padding: 60px 40px;
+        margin-top: 0px;
+    }
+
+    #contact .btn-primary {
+        margin-top: 20px;
+        padding: 9px 0px;
+    }
+
+    #contact .get_in_touch {
+        margin-top: 10px;
+    }
+
+    .footer_left, .footer_right{
+        margin-bottom: 38px;
+    }
+    #footer .newsletter_and_socials {
+        margin: unset;
+    }
+    .footer_contact_elements {
+        width: 250px;
+        margin: auto;
+    }
+    .big_footer{
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    .white_btn{
+        Padding: 5px 15px 5px 15px !important;
+    }
+    .blue_btn{
+        Padding: 5px 15px 5px 15px !important;
+      
+      }
+      .portfolio_right .overlay{
+        opacity:1 ;
+    }
+
+}
+
+
+
+/* Extra Mini  responsive from 339  */ 
+@media screen and (max-width:339px){
+
+
+    .banners_left_content .blue_btn {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .how_we_work_contents .col-6 {
+        width: 100%;
+    }
+
+    #footer .footer_right input {
+        padding: 9px 3px;
+    }
+
+    .btn_subscription {
+        top: 5px;
+        padding: 3px 10px;
+        font-size: 14px;
+    }
+
+    .user-nav-item span:nth-of-type(2){
+        display: none;
+    }
+
+  
+}
+
+/* AOS CUSTOM animation */
+
