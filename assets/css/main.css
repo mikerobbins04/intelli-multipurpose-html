@@ -230,6 +230,8 @@
   min-width: 133px;
   text-align: center;
   transition: 1s;
+  background-color: #085BD8
+  ;
 }
 
 .blue_btn:hover {
@@ -1199,3 +1201,26 @@ width: 100%;
 
 
 /* Animation css customize  */
+#companies{
+  min-height: 80px;
+ margin-top: 30px;
+}
+
+.company_slider button.slick-prev{
+position: absolute;
+top:5;
+}
+
+.company_logo_container{
+transition: .3s;
+}
+.company_logo_container svg{
+transition: .3s;
+}
+
+.gap_96{
+  height: 96px;
+}
+.gap_64{
+  height: 64px;
+}
