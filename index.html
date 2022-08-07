@@ -18,9 +18,9 @@
       <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200&display=swap" rel="stylesheet">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/js/plugins/slick/slick.1.8.1.css" type="text/css" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="assets/js/plugins/slick/slick.1.8.1.css" type="text/css" />
 
       <title>Intelli | Home </title>
    </head>
@@ -55,7 +55,7 @@
               </button>
 
               <!-- Logo for mobile screen  -->
-               <a class="navbar-brand m-auto  m-md-auto m-sm-auto " href="#">
+               <a class="navbar-brand m-auto  m-md-auto m-sm-auto " href="index.html">
                 <img class="img-fluid" src="assets/images/logo/dark_logo.svg" alt="" srcset="">
                </a>
                <!-- Logo for mobile screen  ended-->
@@ -80,10 +80,14 @@
                <div class="collapse navbar-collapse " id="navbarSupportedContent">
                  <ul class="navbar-nav m-auto mb-2  mb-lg-0">
                    <li class="nav-item">
-                     <a class="nav-link active " aria-current="page" href="#">Home</a>
+                     <a class="nav-link active " aria-current="page" href="/index.html">Home</a>
                    </li>
 
-                   <li class="nav-item dropdown">
+                   <li class="nav-item">
+                    <a class="nav-link  " aria-current="page" href="pages/service.html">Service</a>
+                  </li>
+
+                   <!-- <li class="nav-item dropdown">
                      <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                        Services 
                        <span >
@@ -104,34 +108,15 @@
                        <li><a class="dropdown-item" href="#">Service Three</a></li>
                      </ul>
 
-                   </li>
-                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Solutions 
-                      <span >
-                       <svg class="arrow" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                         <path d="M1.00098 0.846191L7.00098 6.84619L13.001 0.846191" stroke="url(#paint0_linear_635_700)" stroke-opacity="0.4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                         <defs>
-                         <linearGradient id="paint0_linear_635_700" x1="7.00098" y1="6.84619" x2="7.00098" y2="0.846191" gradientUnits="userSpaceOnUse">
-                         <stop stop-color="#182A44"/>
-                         <stop offset="1" stop-color="#3C5271"/>
-                         </linearGradient>
-                         </defs>
-                         </svg>
-                      </span>
-                    </a>
-                    <ul class="dropdown-menu mt-3 rounded p-0" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Solutions One</a></li>
-                      <li><a class="dropdown-item" href="#">Solutions Two</a></li>
-                      <li><a class="dropdown-item" href="#">Solutions Three</a></li>
-                    </ul>
-
+                   </li> -->
+                   <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="pages/solution.html">Solutions</a>
                   </li>
                    <li class="nav-item">
-                    <a class="nav-link" href="#">Casestudy</a>
+                    <a class="nav-link" href="pages/case_study.html">Casestudy</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">FAQ</a>
+                    <a class="nav-link" href="pages/faq.html">FAQ</a>
                   </li>
                  </ul>
 
@@ -869,7 +854,7 @@
            <div class="row big_footer align-items-center">
              <div class="footer_left col-12 col-md-6 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 ">
                 <div class="footer_logo text-center text-sm-start">
-                  <a href="">
+                  <a href="index.html">
 
                     <img class="img-fluid" src="assets/images/logo/light_logo.svg" alt="" srcset="">
 
@@ -1005,11 +990,10 @@
                 <div class="row">
                   <div class="tiny_footer_left col-12 col-md-6 col-sm-6 col-lg-6 col-xl-6 col-xxl-6 ">
                     <ul class="useful_links">
-                      <li><a href="">About us</a></li>
-                      <li><a href="">Contact</a></li>
-                      <li><a href="">Privacy policy</a></li>
-                      <li><a href="">Sitemap</a></li>
-                      <li><a href="">Terms of Use</a></li>
+                      <li><a href="pages/service.html">Service</a></li>
+                      <li><a href="pages/solution.html">Solution</a></li>
+                      <li><a href="pages/case_study.html">Case study</a></li>
+                      <li><a href="pages/faq.html">FAQ</a></li>
                     </ul>
                   </div>
     
@@ -1112,16 +1096,16 @@
           autoplay: false,
           autoplaySpeed: 2000,
           prevArrow:`<svg role="button" class="slick-prev" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect class="sv" width="44" height="44" rx="22" fill="white"/>
-<path d="M25 29.5L17.5 22L25 14.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+          <rect class="sv" width="44" height="44" rx="22" fill="white"/>
+          <path d="M25 29.5L17.5 22L25 14.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
 
-    `,
+      `,
           nextArrow:`
           <svg role="button" width="44" class="slick-next" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="44" height="44" rx="22" fill="white"/>
-<path d="M25 29.5L17.5 22L25 14.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+          <rect width="44" height="44" rx="22" fill="white"/>
+          <path d="M25 29.5L17.5 22L25 14.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
 `
         });
 

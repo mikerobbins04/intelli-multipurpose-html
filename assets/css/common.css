@@ -1,0 +1,104 @@
+
+.card2{
+    background: #FFFFFF;
+border: 1px solid rgba(40, 41, 56, 0.2); 
+}
+            #case_banner{
+                min-height: 350px;
+                background: linear-gradient(89.89deg, #085BD8 0.1%, #052D68 99.92%);
+                border-bottom: 1px solid #E2E2E2;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            #case_banner h1{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 140%;
+                color: #FFFFFF;
+
+            }
+
+            #case_banner  p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                /* or 175% */
+
+                text-align: center;
+
+                color: #FFFFFF;
+
+                opacity: 0.8;
+                max-width: 742px;
+                width: 100%;
+                margin-top: 10px;
+            }
+
+        #case_banner svg rect{
+            stroke: white !important;
+        }
+        
+        .card2_heading h2{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 150%;
+            /* or 24px */
+
+
+            /* BLACK/500 */
+
+            color: #232E52;
+        }
+
+        .card2 p{
+            font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #282938;
+opacity: 0.4;
+        }
+
+.card2 a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FF3468;
+    text-decoration: none;
+}
+
+.card2 h2 a{
+    color: black !important;
+}
+
+.bg-dark{
+    background: rgba(40, 41, 56, 0.1) !important;; 
+}
+.badge{
+    color: black;
+    padding: 5px 8px;
+}
+.card2 {
+    margin-bottom: 24px;
+}
+
+.card2 .date{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #232E52;
+}

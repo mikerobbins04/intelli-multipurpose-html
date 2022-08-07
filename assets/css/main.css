@@ -11,6 +11,10 @@
     touch-action: none;
   }
 
+  ::-webkit-scrollbar{
+    width: 0px;
+  }
+
   h1{
 
   }
