@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- Bootstrap CSS -->
       <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-      <link href="../assets/css/main.css" rel="stylesheet" type="text/css">
+      <link href="../assets/css/case_details.css" rel="stylesheet" type="text/css">
       <link href="../assets/css/media_query.css" rel="stylesheet" type="text/css">
       <link rel="stylesheet" href="../assets/js/plugins/aos/aos-2.3.1.css" type="text/css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,80 +39,82 @@
       
          <!-- Header section started  -->
          <section id="header" >
-            <nav class="navbar navbar-expand-lg navbar-light  shadow-md">
-                <div class="container-fluid  container-lg ">
-                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                   <span >
-                    <svg class="border-none" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0.75 4.1875H20.25C20.625 4.1875 21 3.85938 21 3.4375V1.5625C21 1.1875 20.625 0.8125 20.25 0.8125H0.75C0.328125 0.8125 0 1.1875 0 1.5625V3.4375C0 3.85938 0.328125 4.1875 0.75 4.1875ZM0.75 11.6875H20.25C20.625 11.6875 21 11.3594 21 10.9375V9.0625C21 8.6875 20.625 8.3125 20.25 8.3125H0.75C0.328125 8.3125 0 8.6875 0 9.0625V10.9375C0 11.3594 0.328125 11.6875 0.75 11.6875ZM0.75 19.1875H20.25C20.625 19.1875 21 18.8594 21 18.4375V16.5625C21 16.1875 20.625 15.8125 20.25 15.8125H0.75C0.328125 15.8125 0 16.1875 0 16.5625V18.4375C0 18.8594 0.328125 19.1875 0.75 19.1875Z" fill="url(#paint0_linear_258_6838)"/>
-                      <defs>
-                      <linearGradient id="paint0_linear_258_6838" x1="1.17347e-07" y1="10" x2="21" y2="10" gradientUnits="userSpaceOnUse">
-                      <stop stop-color="#182A44"/>
-                      <stop offset="1" stop-color="#3C5271"/>
-                      </linearGradient>
-                      </defs>
+          <nav class="navbar navbar-expand-lg navbar-light  shadow-md fixed-top">
+            <div class="container-fluid  container-lg ">
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span >
+                <svg class="border-none" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0.75 4.1875H20.25C20.625 4.1875 21 3.85938 21 3.4375V1.5625C21 1.1875 20.625 0.8125 20.25 0.8125H0.75C0.328125 0.8125 0 1.1875 0 1.5625V3.4375C0 3.85938 0.328125 4.1875 0.75 4.1875ZM0.75 11.6875H20.25C20.625 11.6875 21 11.3594 21 10.9375V9.0625C21 8.6875 20.625 8.3125 20.25 8.3125H0.75C0.328125 8.3125 0 8.6875 0 9.0625V10.9375C0 11.3594 0.328125 11.6875 0.75 11.6875ZM0.75 19.1875H20.25C20.625 19.1875 21 18.8594 21 18.4375V16.5625C21 16.1875 20.625 15.8125 20.25 15.8125H0.75C0.328125 15.8125 0 16.1875 0 16.5625V18.4375C0 18.8594 0.328125 19.1875 0.75 19.1875Z" fill="url(#paint0_linear_258_6838)"/>
+                  <defs>
+                  <linearGradient id="paint0_linear_258_6838" x1="1.17347e-07" y1="10" x2="21" y2="10" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#182A44"/>
+                  <stop offset="1" stop-color="#3C5271"/>
+                  </linearGradient>
+                  </defs>
+                 </svg>
+               </span>
+             </button>
+
+             <!-- Logo for mobile screen  -->
+               <a class="navbar-brand m-auto  m-md-auto m-sm-auto " href="../index.html">
+               <img class="img-fluid" src="../assets/images/logo/dark_logo.svg" alt="" srcset="">
+              </a>
+              <!-- Logo for mobile screen  ended-->
+
+              <!-- Mobile screen log in  btn -->
+              <ul class="navbar-nav mb-2  mb-lg-0 d-block d-lg-none">
+               <li class="nav-item user-nav-item  ">
+                 <a  class="nav-link" href="#">
+                   <span>
+                     <svg class="mt--2" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M5 20.8462V19.8462C5 15.9802 8.13401 12.8462 12 12.8462V12.8462C15.866 12.8462 19 15.9802 19 19.8462V20.8462" stroke="#BCBCBC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                     <path d="M12 12.8462C14.2091 12.8462 16 11.0553 16 8.84619C16 6.63705 14.2091 4.84619 12 4.84619C9.79086 4.84619 8 6.63705 8 8.84619C8 11.0553 9.79086 12.8462 12 12.8462Z" stroke="#BCBCBC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                      </svg>
-                   </span>
-                 </button>
-    
-                 <!-- Logo for mobile screen  -->
-                  <a class="navbar-brand m-auto  m-md-auto m-sm-auto " href="#">
-                   <img class="img-fluid" src="../assets/images/logo/dark_logo.svg" alt="" srcset="">
-                  </a>
-                  <!-- Logo for mobile screen  ended-->
-    
-                  <!-- Mobile screen log in  btn -->
-                  <ul class="navbar-nav mb-2  mb-lg-0 d-block d-xl-none d-lg-none ">
-                   <li class="nav-item user-nav-item  ">
-                     <a  class="nav-link" href="#">
-                       <span>
-                         <svg class="mt--2" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                         <path d="M5 20.8462V19.8462C5 15.9802 8.13401 12.8462 12 12.8462V12.8462C15.866 12.8462 19 15.9802 19 19.8462V20.8462" stroke="#BCBCBC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                         <path d="M12 12.8462C14.2091 12.8462 16 11.0553 16 8.84619C16 6.63705 14.2091 4.84619 12 4.84619C9.79086 4.84619 8 6.63705 8 8.84619C8 11.0553 9.79086 12.8462 12 12.8462Z" stroke="#BCBCBC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                         </svg>
-                     </span> <span >Log In </span></a>
-                   </li>
-                  </ul>
-                  <!-- Mobile screen log in  btn ended  -->
-                  <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                    <ul class="navbar-nav m-auto mb-2  mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link  " aria-current="page" href="../index.html">Home</a>
-                      </li>
-    
-                      <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="service.html">Service</a>
-                      </li>
-                      <li class="nav-item">
-                       <a class="nav-link " aria-current="page" href="solution.html">Solutions</a>
-                     </li>
-                      <li class="nav-item">
-                       <a class="nav-link" href="case_study.html">Casestudy</a>
-                     </li>
-                     <li class="nav-item">
-                       <a class="nav-link" href="faq.html">FAQ</a>
-                     </li>
-                    </ul>
-    
-                    <ul class="navbar-nav mb-2  mb-lg-0">
-                     <li class="nav-item user-nav-item d-none  d-lg-bolck d-xl-block ">
-                       <a class="nav-link" href="#">
-                         <span>
-                           <svg class="mt--2" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M5 20.8462V19.8462C5 15.9802 8.13401 12.8462 12 12.8462V12.8462C15.866 12.8462 19 15.9802 19 19.8462V20.8462" stroke="#BCBCBC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                           <path d="M12 12.8462C14.2091 12.8462 16 11.0553 16 8.84619C16 6.63705 14.2091 4.84619 12 4.84619C9.79086 4.84619 8 6.63705 8 8.84619C8 11.0553 9.79086 12.8462 12 12.8462Z" stroke="#BCBCBC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                           </svg>
-                       </span> <span >Log In </span></a>
-                     </li>
-                     <li>
-                       <button class="btn btn-outline d-none  d-lg-bolck d-xl-block " type="submit">Get Started</button>
-                     </li>
-                    </ul>
-    
-    
-                  </div>
-                </div>
-              </nav>
+                 </span> <span >Log In</span></a>
+               </li>
+              </ul>
+              <!-- Mobile screen log in  btn ended  -->
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2  mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active " aria-current="page" href="../index.html">Home</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="service.html">Service</a>
+                  </li>
+                  <li class="nav-item">
+                   <a class="nav-link " aria-current="page" href="solution.html">Solutions</a>
+                 </li>
+                  <li class="nav-item">
+                   <a class="nav-link" href="case_study.html">Casestudy</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="faq.html">FAQ</a>
+                 </li>
+                </ul>
+
+                <ul class="navbar-nav mb-2  mb-lg-0">
+
+                  <li class="nav-item user-nav-item  d-none d-lg-block ">
+                    <a  class="nav-link" href="#">
+                      <span>
+                        <svg class="mt--2" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 20.8462V19.8462C5 15.9802 8.13401 12.8462 12 12.8462V12.8462C15.866 12.8462 19 15.9802 19 19.8462V20.8462" stroke="#BCBCBC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 12.8462C14.2091 12.8462 16 11.0553 16 8.84619C16 6.63705 14.2091 4.84619 12 4.84619C9.79086 4.84619 8 6.63705 8 8.84619C8 11.0553 9.79086 12.8462 12 12.8462Z" stroke="#BCBCBC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </span> <span >Log In</span></a>
+                  </li>
+
+                 <li>
+                   <button class="btn btn-outline d-block   " type="submit">Get Started </button>
+                 </li>
+                </ul>
+
+
+              </div>
+            </div>
+          </nav>
          </section>
          <!-- Header section ended  -->
 
@@ -553,114 +555,3 @@
 
    </body>
 </html>
-
-<style>
-  
-  @import url('../assets/css/common.css');
-.blue_bg{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 10px 30px;
-    border-top-right-radius: 20px !important;
-    border-top-left-radius: 20px;
-    min-height: 254px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.bread_cum{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 10px;
-}
-
-
-.list-group li{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 120%;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 10px 12px;
-}
-.list-group li:first-child{
-    border-top-left-radius: 8px !important;
-    border-bottom-left-radius: 8px !important;
-    background-color: #085BD8 !important;
-    border: 1px solid #FFFFFF;
-    color: #FFFFFF;  
-
-
-}
-
-
-.list-group li:last-child{
-    border-top-right-radius: 8px !important;
-    border-bottom-right-radius: 8px !important;
-    background-color: white !important;
-    border: 1px solid #FFFFFF;
-    color: #085BD8 !important;
-
-
-}
-
-.banner_text h2{
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 140%;
-color: #FFFFFF;
-max-width: 856px;
-width: 100%;
-margin-top: 30px;    
-}
-
-.para{
-    margin-bottom: 40px;
-}
-.para h3{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 150%;
-    color: #393E50;
-    margin: 20px 0px;
-}
-
-.para p{    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: #282938;
-    opacity: 0.6; 
-}
-
-.para li{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: #393E50;
-    opacity: 0.6;   
-}
-
-.interesting_heading h2{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 48px;
-    color: #232E52;
-}
-</style>

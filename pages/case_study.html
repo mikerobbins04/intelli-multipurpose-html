@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- Bootstrap CSS -->
       <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-      <link href="../assets/css/main.css" rel="stylesheet" type="text/css">
+      <link href="../assets/css/common.css" rel="stylesheet" type="text/css">
       <link href="../assets/css/media_query.css" rel="stylesheet" type="text/css">
       <link rel="stylesheet" href="../assets/js/plugins/aos/aos-2.3.1.css" type="text/css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/js/plugins/slick/slick.1.8.1.css" type="text/css" />
 
-      <title>Intelli | Home </title>
+      <title>Intelli | Case Study </title>
    </head>
    
    <body> 
@@ -39,7 +39,7 @@
       
          <!-- Header section started  -->
          <section id="header" >
-          <nav class="navbar navbar-expand-lg navbar-light  shadow-md">
+          <nav class="navbar navbar-expand-lg navbar-light  shadow-md fixed-top">
             <div class="container-fluid  container-lg ">
              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span >
@@ -62,7 +62,7 @@
               <!-- Logo for mobile screen  ended-->
 
               <!-- Mobile screen log in  btn -->
-              <ul class="navbar-nav mb-2  mb-lg-0 d-block d-xl-none d-lg-none ">
+              <ul class="navbar-nav mb-2  mb-lg-0 d-block d-lg-none">
                <li class="nav-item user-nav-item  ">
                  <a  class="nav-link" href="#">
                    <span>
@@ -70,14 +70,14 @@
                      <path d="M5 20.8462V19.8462C5 15.9802 8.13401 12.8462 12 12.8462V12.8462C15.866 12.8462 19 15.9802 19 19.8462V20.8462" stroke="#BCBCBC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                      <path d="M12 12.8462C14.2091 12.8462 16 11.0553 16 8.84619C16 6.63705 14.2091 4.84619 12 4.84619C9.79086 4.84619 8 6.63705 8 8.84619C8 11.0553 9.79086 12.8462 12 12.8462Z" stroke="#BCBCBC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                      </svg>
-                 </span> <span >Log In </span></a>
+                 </span> <span >Log In</span></a>
                </li>
               </ul>
               <!-- Mobile screen log in  btn ended  -->
               <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto mb-2  mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link  " aria-current="page" href="../index.html">Home</a>
+                    <a class="nav-link active " aria-current="page" href="../index.html">Home</a>
                   </li>
 
                   <li class="nav-item">
@@ -87,7 +87,7 @@
                    <a class="nav-link " aria-current="page" href="solution.html">Solutions</a>
                  </li>
                   <li class="nav-item">
-                   <a class="nav-link active" href="case_study.html">Casestudy</a>
+                   <a class="nav-link" href="case_study.html">Casestudy</a>
                  </li>
                  <li class="nav-item">
                    <a class="nav-link" href="faq.html">FAQ</a>
@@ -95,17 +95,19 @@
                 </ul>
 
                 <ul class="navbar-nav mb-2  mb-lg-0">
-                 <li class="nav-item user-nav-item d-none  d-lg-bolck d-xl-block ">
-                   <a class="nav-link" href="#">
-                     <span>
-                       <svg class="mt--2" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                       <path d="M5 20.8462V19.8462C5 15.9802 8.13401 12.8462 12 12.8462V12.8462C15.866 12.8462 19 15.9802 19 19.8462V20.8462" stroke="#BCBCBC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                       <path d="M12 12.8462C14.2091 12.8462 16 11.0553 16 8.84619C16 6.63705 14.2091 4.84619 12 4.84619C9.79086 4.84619 8 6.63705 8 8.84619C8 11.0553 9.79086 12.8462 12 12.8462Z" stroke="#BCBCBC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                       </svg>
-                   </span> <span >Log In </span></a>
-                 </li>
+
+                  <li class="nav-item user-nav-item  d-none d-lg-block ">
+                    <a  class="nav-link" href="#">
+                      <span>
+                        <svg class="mt--2" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 20.8462V19.8462C5 15.9802 8.13401 12.8462 12 12.8462V12.8462C15.866 12.8462 19 15.9802 19 19.8462V20.8462" stroke="#BCBCBC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 12.8462C14.2091 12.8462 16 11.0553 16 8.84619C16 6.63705 14.2091 4.84619 12 4.84619C9.79086 4.84619 8 6.63705 8 8.84619C8 11.0553 9.79086 12.8462 12 12.8462Z" stroke="#BCBCBC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </span> <span >Log In</span></a>
+                  </li>
+
                  <li>
-                   <button class="btn btn-outline d-none  d-lg-bolck d-xl-block " type="submit">Get Started</button>
+                   <button class="btn btn-outline d-block   " type="submit">Get Started </button>
                  </li>
                 </ul>
 
@@ -168,282 +170,844 @@
                     </p>
                 </div>
 
-
+                <div class="gap_96"></div>
                 <div class="container">
-                 <div class="case_cards">
-                    <div class="gap_64"></div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-4">
-                                <div class="card2_img">
-                                    <a href=""><img class="img-fluid" src="../assets/images/banner/card1.png" alt=""></a>
-                                </div>
-        
-                                <div class="card2_posted_info d-flex justify-content-between">
-                                    <div class="badge bg-dark">Design Tools</div>
-                                    <div class="date">August 3 2022</div>
-                                </div>
-        
-                                <div class="card2_heading">
-                                   <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
-                                </div>
-        
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
-                                </p>
-        
-                                <a href="">Read More
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                        
-                                        
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-4">
-                                <div class="card2_img">
-                                    <a href=""><img class="img-fluid" src="../assets/images/banner/card2.png" alt=""></a>
-                                </div>
-        
-                                <div class="card2_posted_info d-flex justify-content-between">
-                                    <div class="badge bg-dark">Design Tools</div>
-                                    <div class="date">August 3 2022</div>
-                                </div>
-        
-                                <div class="card2_heading">
-                                   <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
-                                </div>
-        
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
-                                </p>
-        
-                                <a href="">Read More
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                        
-                                        
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-4">
-                                <div class="card2_img">
-                                    <a href=""><img class="img-fluid" src="../assets/images/banner/card3.png" alt=""></a>
-                                </div>
-        
-                                <div class="card2_posted_info d-flex justify-content-between">
-                                    <div class="badge bg-dark">Design Tools</div>
-                                    <div class="date">August 3 2022</div>
-                                </div>
-        
-                                <div class="card2_heading">
-                                   <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
-                                </div>
-        
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
-                                </p>
-        
-                                <a href="">Read More
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                        
-                                        
-                                </a>
-                            </div>
-                        </div>
 
 
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-4">
-                                <div class="card2_img">
-                                    <a href=""><img class="img-fluid" src="../assets/images/banner/card4.png" alt=""></a>
-                                </div>
-        
-                                <div class="card2_posted_info d-flex justify-content-between">
-                                    <div class="badge bg-dark">Design Tools</div>
-                                    <div class="date">August 3 2022</div>
-                                </div>
-        
-                                <div class="card2_heading">
-                                   <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
-                                </div>
-        
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
-                                </p>
-        
-                                <a href="">Read More
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                        
-                                        
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-4">
-                                <div class="card2_img">
-                                    <a href=""><img class="img-fluid" src="../assets/images/banner/card5.png" alt=""></a>
-                                </div>
-        
-                                <div class="card2_posted_info d-flex justify-content-between">
-                                    <div class="badge bg-dark">Design Tools</div>
-                                    <div class="date">August 3 2022</div>
-                                </div>
-        
-                                <div class="card2_heading">
-                                   <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
-                                </div>
-        
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
-                                </p>
-        
-                                <a href="">Read More
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                        
-                                        
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-4">
-                                <div class="card2_img">
-                                    <a href=""><img class="img-fluid" src="../assets/images/banner/card6.png" alt=""></a>
-                                </div>
-        
-                                <div class="card2_posted_info d-flex justify-content-between">
-                                    <div class="badge bg-dark">Design Tools</div>
-                                    <div class="date">August 3 2022</div>
-                                </div>
-        
-                                <div class="card2_heading">
-                                   <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
-                                </div>
-        
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
-                                </p>
-        
-                                <a href="">Read More
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                        
-                                        
-                                </a>
-                            </div>
-                        </div>
+                  <!-- xxxxx -->
+                  <div class="tab_wrapper d-flex justify-content-between">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Business</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Consulting</button>
+                      </li>
 
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-tech-tab" data-bs-toggle="pill" data-bs-target="#pills-tech" type="button" role="tab" aria-controls="pills-tech" aria-selected="false">Technology</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-product-tab" data-bs-toggle="pill" data-bs-target="#pills-product" type="button" role="tab" aria-controls="pills-product" aria-selected="false">Product</button>
+                      </li>
+                    </ul>
 
-
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-4">
-                                <div class="card2_img">
-                                    <a href=""><img class="img-fluid" src="../assets/images/banner/card7.png" alt=""></a>
-                                </div>
-        
-                                <div class="card2_posted_info d-flex justify-content-between">
-                                    <div class="badge bg-dark">Design Tools</div>
-                                    <div class="date">August 3 2022</div>
-                                </div>
-        
-                                <div class="card2_heading">
-                                   <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
-                                </div>
-        
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
-                                </p>
-        
-                                <a href="">Read More
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                        
-                                        
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-4">
-                                <div class="card2_img">
-                                    <a href=""><img class="img-fluid" src="../assets/images/banner/card8.png" alt=""></a>
-                                </div>
-        
-                                <div class="card2_posted_info d-flex justify-content-between">
-                                    <div class="badge bg-dark">Design Tools</div>
-                                    <div class="date">August 3 2022</div>
-                                </div>
-        
-                                <div class="card2_heading">
-                                   <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
-                                </div>
-        
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
-                                </p>
-        
-                                <a href="">Read More
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                        
-                                        
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-4">
-                                <div class="card2_img">
-                                    <a href=""><img class="img-fluid" src="../assets/images/banner/card9.png" alt=""></a>
-                                </div>
-        
-                                <div class="card2_posted_info d-flex justify-content-between">
-                                    <div class="badge bg-dark">Design Tools</div>
-                                    <div class="date">August 3 2022</div>
-                                </div>
-        
-                                <div class="card2_heading">
-                                   <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
-                                </div>
-        
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
-                                </p>
-        
-                                <a href="">Read More
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                        
-                                        
-                                </a>
-                            </div>
-                        </div>
-
-
+                    <div class="tab_search">
+                      <input class="form-control" placeholder="Search" type="text">
+                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.0625 15.625C12.6869 15.625 15.625 12.6869 15.625 9.0625C15.625 5.43813 12.6869 2.5 9.0625 2.5C5.43813 2.5 2.5 5.43813 2.5 9.0625C2.5 12.6869 5.43813 15.625 9.0625 15.625Z" stroke="#A2A2A2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M13.7031 13.7031L17.5 17.5" stroke="#A2A2A2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
                     </div>
-                 </div>
+                  </div>
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                      <div class="case_cards">
+                        <div class="gap_64"></div>
+    
+                        <div class="row">
+
+  
+                          <div class="col-12 col-md-6 col-lg-4">
+                              <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                  <div class="card2_img">
+                                      <a href=""><img class="img-fluid" src="../assets/images/banner/card4.png" alt=""></a>
+                                  </div>
+          
+                                  <div class="card2_posted_info d-flex justify-content-between">
+                                      <div class="badge bg-dark">Design Tools</div>
+                                      <div class="date">August 3 2022</div>
+                                  </div>
+          
+                                  <div class="card2_heading">
+                                     <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                  </div>
+          
+                                  <p>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                  </p>
+          
+                                  <a href="">Read More
+                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          </svg>
+                                          
+                                          
+                                  </a>
+                              </div>
+                          </div>
+                          <div class="col-12 col-md-6 col-lg-4">
+                              <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                  <div class="card2_img">
+                                      <a href=""><img class="img-fluid" src="../assets/images/banner/card5.png" alt=""></a>
+                                  </div>
+          
+                                  <div class="card2_posted_info d-flex justify-content-between">
+                                      <div class="badge bg-dark">Design Tools</div>
+                                      <div class="date">August 3 2022</div>
+                                  </div>
+          
+                                  <div class="card2_heading">
+                                     <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                  </div>
+          
+                                  <p>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                  </p>
+          
+                                  <a href="">Read More
+                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          </svg>
+                                          
+                                          
+                                  </a>
+                              </div>
+                          </div>
+                          <div class="col-12 col-md-6 col-lg-4">
+                              <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                  <div class="card2_img">
+                                      <a href=""><img class="img-fluid" src="../assets/images/banner/card6.png" alt=""></a>
+                                  </div>
+          
+                                  <div class="card2_posted_info d-flex justify-content-between">
+                                      <div class="badge bg-dark">Design Tools</div>
+                                      <div class="date">August 3 2022</div>
+                                  </div>
+          
+                                  <div class="card2_heading">
+                                     <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                  </div>
+          
+                                  <p>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                  </p>
+          
+                                  <a href="">Read More
+                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          </svg>
+                                          
+                                          
+                                  </a>
+                              </div>
+                          </div>
+    
+    
+    
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                    <div class="card2_img">
+                                        <a href=""><img class="img-fluid" src="../assets/images/banner/card7.png" alt=""></a>
+                                    </div>
+            
+                                    <div class="card2_posted_info d-flex justify-content-between">
+                                        <div class="badge bg-dark">Design Tools</div>
+                                        <div class="date">August 3 2022</div>
+                                    </div>
+            
+                                    <div class="card2_heading">
+                                       <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                    </div>
+            
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                    </p>
+            
+                                    <a href="">Read More
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                            
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                    <div class="card2_img">
+                                        <a href=""><img class="img-fluid" src="../assets/images/banner/card8.png" alt=""></a>
+                                    </div>
+            
+                                    <div class="card2_posted_info d-flex justify-content-between">
+                                        <div class="badge bg-dark">Design Tools</div>
+                                        <div class="date">August 3 2022</div>
+                                    </div>
+            
+                                    <div class="card2_heading">
+                                       <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                    </div>
+            
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                    </p>
+            
+                                    <a href="">Read More
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                            
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                    <div class="card2_img">
+                                        <a href=""><img class="img-fluid" src="../assets/images/banner/card9.png" alt=""></a>
+                                    </div>
+            
+                                    <div class="card2_posted_info d-flex justify-content-between">
+                                        <div class="badge bg-dark">Design Tools</div>
+                                        <div class="date">August 3 2022</div>
+                                    </div>
+            
+                                    <div class="card2_heading">
+                                       <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                    </div>
+            
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                    </p>
+            
+                                    <a href="">Read More
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                            
+                                    </a>
+                                </div>
+                            </div>
+    
+    
+                        </div>
+                     </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                      <div class="case_cards">
+                        <div class="gap_64"></div>
+    
+                        <div class="row">
+
+  
+                          <div class="col-12 col-md-6 col-lg-4">
+                              <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                  <div class="card2_img">
+                                      <a href=""><img class="img-fluid" src="../assets/images/banner/card4.png" alt=""></a>
+                                  </div>
+          
+                                  <div class="card2_posted_info d-flex justify-content-between">
+                                      <div class="badge bg-dark">Design Tools</div>
+                                      <div class="date">August 3 2022</div>
+                                  </div>
+          
+                                  <div class="card2_heading">
+                                     <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                  </div>
+          
+                                  <p>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                  </p>
+          
+                                  <a href="">Read More
+                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          </svg>
+                                          
+                                          
+                                  </a>
+                              </div>
+                          </div>
+                          <div class="col-12 col-md-6 col-lg-4">
+                              <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                  <div class="card2_img">
+                                      <a href=""><img class="img-fluid" src="../assets/images/banner/card5.png" alt=""></a>
+                                  </div>
+          
+                                  <div class="card2_posted_info d-flex justify-content-between">
+                                      <div class="badge bg-dark">Design Tools</div>
+                                      <div class="date">August 3 2022</div>
+                                  </div>
+          
+                                  <div class="card2_heading">
+                                     <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                  </div>
+          
+                                  <p>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                  </p>
+          
+                                  <a href="">Read More
+                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          </svg>
+                                          
+                                          
+                                  </a>
+                              </div>
+                          </div>
+                          <div class="col-12 col-md-6 col-lg-4">
+                              <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                  <div class="card2_img">
+                                      <a href=""><img class="img-fluid" src="../assets/images/banner/card6.png" alt=""></a>
+                                  </div>
+          
+                                  <div class="card2_posted_info d-flex justify-content-between">
+                                      <div class="badge bg-dark">Design Tools</div>
+                                      <div class="date">August 3 2022</div>
+                                  </div>
+          
+                                  <div class="card2_heading">
+                                     <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                  </div>
+          
+                                  <p>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                  </p>
+          
+                                  <a href="">Read More
+                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          </svg>
+                                          
+                                          
+                                  </a>
+                              </div>
+                          </div>
+    
+    
+    
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                    <div class="card2_img">
+                                        <a href=""><img class="img-fluid" src="../assets/images/banner/card7.png" alt=""></a>
+                                    </div>
+            
+                                    <div class="card2_posted_info d-flex justify-content-between">
+                                        <div class="badge bg-dark">Design Tools</div>
+                                        <div class="date">August 3 2022</div>
+                                    </div>
+            
+                                    <div class="card2_heading">
+                                       <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                    </div>
+            
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                    </p>
+            
+                                    <a href="">Read More
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                            
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                    <div class="card2_img">
+                                        <a href=""><img class="img-fluid" src="../assets/images/banner/card8.png" alt=""></a>
+                                    </div>
+            
+                                    <div class="card2_posted_info d-flex justify-content-between">
+                                        <div class="badge bg-dark">Design Tools</div>
+                                        <div class="date">August 3 2022</div>
+                                    </div>
+            
+                                    <div class="card2_heading">
+                                       <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                    </div>
+            
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                    </p>
+            
+                                    <a href="">Read More
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                            
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                    <div class="card2_img">
+                                        <a href=""><img class="img-fluid" src="../assets/images/banner/card9.png" alt=""></a>
+                                    </div>
+            
+                                    <div class="card2_posted_info d-flex justify-content-between">
+                                        <div class="badge bg-dark">Design Tools</div>
+                                        <div class="date">August 3 2022</div>
+                                    </div>
+            
+                                    <div class="card2_heading">
+                                       <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                    </div>
+            
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                    </p>
+            
+                                    <a href="">Read More
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                            
+                                    </a>
+                                </div>
+                            </div>
+    
+    
+                        </div>
+                     </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                      <div class="case_cards">
+                        <div class="gap_64"></div>
+    
+                        <div class="row">
+
+    
+    
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                    <div class="card2_img">
+                                        <a href=""><img class="img-fluid" src="../assets/images/banner/card7.png" alt=""></a>
+                                    </div>
+            
+                                    <div class="card2_posted_info d-flex justify-content-between">
+                                        <div class="badge bg-dark">Design Tools</div>
+                                        <div class="date">August 3 2022</div>
+                                    </div>
+            
+                                    <div class="card2_heading">
+                                       <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                    </div>
+            
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                    </p>
+            
+                                    <a href="">Read More
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                            
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                    <div class="card2_img">
+                                        <a href=""><img class="img-fluid" src="../assets/images/banner/card8.png" alt=""></a>
+                                    </div>
+            
+                                    <div class="card2_posted_info d-flex justify-content-between">
+                                        <div class="badge bg-dark">Design Tools</div>
+                                        <div class="date">August 3 2022</div>
+                                    </div>
+            
+                                    <div class="card2_heading">
+                                       <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                    </div>
+            
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                    </p>
+            
+                                    <a href="">Read More
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                            
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                    <div class="card2_img">
+                                        <a href=""><img class="img-fluid" src="../assets/images/banner/card9.png" alt=""></a>
+                                    </div>
+            
+                                    <div class="card2_posted_info d-flex justify-content-between">
+                                        <div class="badge bg-dark">Design Tools</div>
+                                        <div class="date">August 3 2022</div>
+                                    </div>
+            
+                                    <div class="card2_heading">
+                                       <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                    </div>
+            
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                    </p>
+            
+                                    <a href="">Read More
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                            
+                                    </a>
+                                </div>
+                            </div>
+    
+    
+                        </div>
+                     </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-tech" role="tabpanel" aria-labelledby="pills-tect-tab">
+                      <div class="case_cards">
+                        <div class="gap_64"></div>
+    
+                        <div class="row">
+
+  
+                          <div class="col-12 col-md-6 col-lg-4">
+                              <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                  <div class="card2_img">
+                                      <a href=""><img class="img-fluid" src="../assets/images/banner/card4.png" alt=""></a>
+                                  </div>
+          
+                                  <div class="card2_posted_info d-flex justify-content-between">
+                                      <div class="badge bg-dark">Design Tools</div>
+                                      <div class="date">August 3 2022</div>
+                                  </div>
+          
+                                  <div class="card2_heading">
+                                     <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                  </div>
+          
+                                  <p>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                  </p>
+          
+                                  <a href="">Read More
+                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          </svg>
+                                          
+                                          
+                                  </a>
+                              </div>
+                          </div>
+                          <div class="col-12 col-md-6 col-lg-4">
+                              <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                  <div class="card2_img">
+                                      <a href=""><img class="img-fluid" src="../assets/images/banner/card5.png" alt=""></a>
+                                  </div>
+          
+                                  <div class="card2_posted_info d-flex justify-content-between">
+                                      <div class="badge bg-dark">Design Tools</div>
+                                      <div class="date">August 3 2022</div>
+                                  </div>
+          
+                                  <div class="card2_heading">
+                                     <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                  </div>
+          
+                                  <p>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                  </p>
+          
+                                  <a href="">Read More
+                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          </svg>
+                                          
+                                          
+                                  </a>
+                              </div>
+                          </div>
+                          <div class="col-12 col-md-6 col-lg-4">
+                              <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                  <div class="card2_img">
+                                      <a href=""><img class="img-fluid" src="../assets/images/banner/card6.png" alt=""></a>
+                                  </div>
+          
+                                  <div class="card2_posted_info d-flex justify-content-between">
+                                      <div class="badge bg-dark">Design Tools</div>
+                                      <div class="date">August 3 2022</div>
+                                  </div>
+          
+                                  <div class="card2_heading">
+                                     <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                  </div>
+          
+                                  <p>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                  </p>
+          
+                                  <a href="">Read More
+                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          </svg>
+                                          
+                                          
+                                  </a>
+                              </div>
+                          </div>
+    
+    
+    
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                    <div class="card2_img">
+                                        <a href=""><img class="img-fluid" src="../assets/images/banner/card7.png" alt=""></a>
+                                    </div>
+            
+                                    <div class="card2_posted_info d-flex justify-content-between">
+                                        <div class="badge bg-dark">Design Tools</div>
+                                        <div class="date">August 3 2022</div>
+                                    </div>
+            
+                                    <div class="card2_heading">
+                                       <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                    </div>
+            
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                    </p>
+            
+                                    <a href="">Read More
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                            
+                                    </a>
+                                </div>
+                            </div>
+   
+    
+                        </div>
+                     </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-product" role="tabpanel" aria-labelledby="pills-product-tab">
+                      <div class="case_cards">
+                        <div class="gap_64"></div>
+    
+                        <div class="row">
+
+  
+                          <div class="col-12 col-md-6 col-lg-4">
+                              <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                  <div class="card2_img">
+                                      <a href=""><img class="img-fluid" src="../assets/images/banner/card4.png" alt=""></a>
+                                  </div>
+          
+                                  <div class="card2_posted_info d-flex justify-content-between">
+                                      <div class="badge bg-dark">Design Tools</div>
+                                      <div class="date">August 3 2022</div>
+                                  </div>
+          
+                                  <div class="card2_heading">
+                                     <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                  </div>
+          
+                                  <p>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                  </p>
+          
+                                  <a href="">Read More
+                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          </svg>
+                                          
+                                          
+                                  </a>
+                              </div>
+                          </div>
+                          <div class="col-12 col-md-6 col-lg-4">
+                              <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                  <div class="card2_img">
+                                      <a href=""><img class="img-fluid" src="../assets/images/banner/card5.png" alt=""></a>
+                                  </div>
+          
+                                  <div class="card2_posted_info d-flex justify-content-between">
+                                      <div class="badge bg-dark">Design Tools</div>
+                                      <div class="date">August 3 2022</div>
+                                  </div>
+          
+                                  <div class="card2_heading">
+                                     <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                  </div>
+          
+                                  <p>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                  </p>
+          
+                                  <a href="">Read More
+                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          </svg>
+                                          
+                                          
+                                  </a>
+                              </div>
+                          </div>
+                          <div class="col-12 col-md-6 col-lg-4">
+                              <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                  <div class="card2_img">
+                                      <a href=""><img class="img-fluid" src="../assets/images/banner/card6.png" alt=""></a>
+                                  </div>
+          
+                                  <div class="card2_posted_info d-flex justify-content-between">
+                                      <div class="badge bg-dark">Design Tools</div>
+                                      <div class="date">August 3 2022</div>
+                                  </div>
+          
+                                  <div class="card2_heading">
+                                     <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                  </div>
+          
+                                  <p>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                  </p>
+          
+                                  <a href="">Read More
+                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                          </svg>
+                                          
+                                          
+                                  </a>
+                              </div>
+                          </div>
+    
+    
+    
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                    <div class="card2_img">
+                                        <a href=""><img class="img-fluid" src="../assets/images/banner/card7.png" alt=""></a>
+                                    </div>
+            
+                                    <div class="card2_posted_info d-flex justify-content-between">
+                                        <div class="badge bg-dark">Design Tools</div>
+                                        <div class="date">August 3 2022</div>
+                                    </div>
+            
+                                    <div class="card2_heading">
+                                       <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                    </div>
+            
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                    </p>
+            
+                                    <a href="">Read More
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                            
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                    <div class="card2_img">
+                                        <a href=""><img class="img-fluid" src="../assets/images/banner/card8.png" alt=""></a>
+                                    </div>
+            
+                                    <div class="card2_posted_info d-flex justify-content-between">
+                                        <div class="badge bg-dark">Design Tools</div>
+                                        <div class="date">August 3 2022</div>
+                                    </div>
+            
+                                    <div class="card2_heading">
+                                       <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                    </div>
+            
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                    </p>
+            
+                                    <a href="">Read More
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                            
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card2 p-md-2 p-lg-4 d-flex flex-column gap-3">
+                                    <div class="card2_img">
+                                        <a href=""><img class="img-fluid" src="../assets/images/banner/card9.png" alt=""></a>
+                                    </div>
+            
+                                    <div class="card2_posted_info d-flex justify-content-between">
+                                        <div class="badge bg-dark">Design Tools</div>
+                                        <div class="date">August 3 2022</div>
+                                    </div>
+            
+                                    <div class="card2_heading">
+                                       <h2 > <a href="">10 Hilarious Cartoons That Depict Real-Life Problems of Programmers</a></h2>
+                                    </div>
+            
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut arcu maecenas erat scelerisque gravida arcu. Consectetur fames lorem laoreet aliquam lectus
+                                    </p>
+            
+                                    <a href="">Read More
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 18L18 6" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M8.25 6H18V15.75" stroke="#FF3468" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            
+                                            
+                                    </a>
+                                </div>
+                            </div>
+    
+    
+                        </div>
+                     </div>
+                    </div>
+
+                  </div>
+
+
+            
                 </div>
                 
                 <div class="gap_64"></div>
@@ -715,111 +1279,3 @@
 
    </body>
 </html>
-
-<style>
-
-.card2{
-    background: #FFFFFF;
-border: 1px solid rgba(40, 41, 56, 0.2); 
-}
-            #case_banner{
-                min-height: 350px;
-                background: linear-gradient(89.89deg, #085BD8 0.1%, #052D68 99.92%);
-                border-bottom: 1px solid #E2E2E2;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-            }
-
-            #case_banner h1{
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 48px;
-                line-height: 140%;
-                color: #FFFFFF;
-
-            }
-
-            #case_banner  p{
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 28px;
-                /* or 175% */
-
-                text-align: center;
-
-                color: #FFFFFF;
-
-                opacity: 0.8;
-                max-width: 742px;
-                width: 100%;
-                margin-top: 10px;
-            }
-
-        #case_banner svg rect{
-            stroke: white !important;
-        }
-        
-        .card2_heading h2{
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 150%;
-            /* or 24px */
-
-
-            /* BLACK/500 */
-
-            color: #232E52;
-        }
-
-        .card2 p{
-            font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 150%;
-color: #282938;
-opacity: 0.4;
-        }
-
-.card2 a{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    color: #FF3468;
-    text-decoration: none;
-}
-
-.card2 h2 a{
-    color: black !important;
-}
-
-.bg-dark{
-    background: rgba(40, 41, 56, 0.1) !important;; 
-}
-.badge{
-    color: black;
-    padding: 5px 8px;
-}
-.card2 {
-    margin-bottom: 24px;
-}
-
-.card2 .date{
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 120%;
-    text-align: center;
-    text-transform: uppercase;
-    color: #232E52;
-}
-
-</style>

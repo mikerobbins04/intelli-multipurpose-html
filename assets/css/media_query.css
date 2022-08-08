@@ -44,6 +44,8 @@
         font-size: 25px !important;
     }
 
+
+
 }
 @media screen and (max-width:1366px){
 
@@ -106,12 +108,24 @@
     .client_review_left h2, .client_review_left p {
         margin: auto;
     }
+    .solution_banner{
+        min-height: 500px;
+    }
 
+    .service_banner_top h4{
+        font-size: 26px !important;
+    }
 
+    
+    .navbar-nav .btn-outline {
+        Padding: 8px;
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width:992px){
 
+    
 
     h1{
         font-size: 24px !important;
@@ -120,7 +134,7 @@
     
     h2{
         font-size: 24px !important;
-        line-height: 36px !important;
+        line-height: 360x !important;
     }
     p{
         font-size: 14px !important;
@@ -246,6 +260,34 @@
 
     .contact_right h5{
         font-size: 20px !important;
+    }
+
+    .service_banner_top h4{
+        font-size: 26px !important;
+    }
+
+    #header .navbar-nav{
+        display: unset !important;
+    }
+
+    .tab_wrapper{
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+        text-align: center;
+        justify-content: center !important;
+        align-items: center;
+    }
+
+    .tab_search{
+        width: 100%;
+    }
+
+    .tab_wrapper .nav{
+        justify-content: center;
+    }
+    .tab_wrapper button{
+        margin-bottom: 15px;
     }
 }
 
@@ -378,8 +420,95 @@
         opacity:1 ;
     }
 
+
+    .card2_img img{
+        width: 100%;
+        
+    }
+
+    .card2{
+        padding: 20px;
+    }
+
+    .card2_heading h2 {
+        line-height: 10% !important;
+    }
+
+    .card2_heading h2 a{
+        line-height: 20px !important;
+    }
+
+    .price_card{
+        padding: 20px;
+    }
+
+    .service_banner_left .white_btn{
+        margin-bottom: 15px;
+    }
+
+    .award_el{
+        margin-bottom: 15px;
+    }
+
+    .price_card{
+        min-height: 400px;
+    }
+    .bread_cum{
+        justify-content: space-between !important;
+    }
+    .banner_content svg{
+        height: 40px !important;
+        width: 40px;
+        margin-right: 2px !important;
+    }
+    .banner_btn a:first-child {
+        padding: 2px 14px;
+    }
+
+    .banner_btn a {
+        margin: 0px ;
+    }
+    .btn_wrapper.banner_btn {
+        display: flex;
+        padding: 10px;
+        justify-content: space-around;
+    }
+
+    .service_banner_top img{
+        margin-bottom: 45px;
+    }
+
+    .navbar-collapse{
+        margin-left: 15px;
+    }
+
+    .user-nav-item span{
+        padding-left: 0px !important;
+    }
+
+    .simple_nav ul{
+        gap: 25px;
+      }
+
+      .simple_nav li {
+        padding: 0px 5px !important;
+    }
+
 }
 
+
+@media screen and (max-width:420px){
+    .post_info .list-group-item{
+        padding: 8px;
+        font-size: 10px;
+    }
+    .service_banner_top h4 {
+        font-size: 16px !important;
+    }
+
+    
+  
+}
 
 
 /* Extra Mini  responsive from 339  */ 
