@@ -1,7 +1,7 @@
 // Code for preloader will be disappeared after all contents being loaded 
 $(window).on('load', function () {
     $("#preloader").fadeOut("slow",function(){
-      $("#main").css({'overflow':'unset', 'margin-top':'70px'}); 
+      $("#main").css({'overflow':'unset'}); 
     });
 
 });
