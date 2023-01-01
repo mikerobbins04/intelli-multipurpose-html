@@ -22,7 +22,6 @@ $('ul.navbar-nav li.dropdown').hover(function() {
   //Custome code for  slick auto ratio slider 
   $(document).ready(function(){
     $window_width = $(window).width();
-
     if($window_width > 992){
       company_slider();
     }
@@ -86,7 +85,6 @@ $('ul.navbar-nav li.dropdown').hover(function() {
         // console.log( "right "+' '+$left_targeted_elements+' taking scale '+$right_max_scale);
         
       }
-
       
     },function(){
       $(".company_logo_container svg").css({'transform':'scale(1.2)'});
