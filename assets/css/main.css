@@ -149,9 +149,15 @@
 }
 
 .portfolio_left .overlay_contents {
-  position: absolute;
-  bottom: 66px;
-  left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  justify-content: end;
+  min-height: 420px;
+  padding: 0px 40px ;
+  height: 100%;
+  padding-bottom: 40px;
 }
 
 .portfolio_left .overlay_contents h2 {
@@ -248,4 +254,17 @@
 }
 .company_slider .slick-active.slick-center svg path {
   fill: #ab0534;
+}
+
+@media screen and (max-width:1024px){
+  .portfolio_left .overlay_contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 420px;
+    padding: 0px 10px ;
+    margin: auto;
+  }
+  
 }

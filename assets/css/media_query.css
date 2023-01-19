@@ -19,11 +19,7 @@
   }
 }
 
-@media only screen and (max-width: 991px) and (min-width: 600px) {
-  .portfolio_left .overlay_contents {
-    margin-left: calc(10% - 12px);
-  }
-}
+
 /* Laptopn screen  */
 @media only screen and (max-width: 1366px) and (min-width: 992px) {
   .client_review_right {
@@ -180,12 +176,6 @@
 
   .portfolio_left .overlay_contents p {
     max-width: 100%;
-  }
-
-  .portfolio_left .overlay_contents {
-    top: 20%;
-    left: 15%;
-    transform: translate(-27px, 40px) !important;
   }
 
   #portfolio h1 a {
